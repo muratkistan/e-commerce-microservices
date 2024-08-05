@@ -1,0 +1,22 @@
+#spring:
+#  data:
+#    mongodb:
+#      username: muratkistan
+#      password: muratkistan
+#      host: localhost
+#      port: 27017
+#      database: customer
+#      authentication-database: admin
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/customer?ssl=false
+server:
+  port: 8090
+
+
+
+
+
+#spring.autoconfigure.exclude=org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
